@@ -1,0 +1,79 @@
+body {
+	background-color: white;
+	/* default margin is 8px*/
+	/* margin:auto blocks of text centered */
+	margin: 5px;
+	text-align: center;
+}
+img {
+	margin: auto;
+}
+
+@font-face {
+	font-family: funduck;
+	src: url(FunnyDuck-mv12.ttf);
+}
+
+@font-face {
+	font-family: duckyalfa;
+	src: url(ducky_alfareaniy/ducky.otf);
+}
+h1 {
+	font-family: duckyalfa;
+	font-size: 63px;
+}
+
+h3 {
+	font-family: duckyalfa;
+	font-size: 35px;
+}
+
+p {
+	font-family: funduck;
+	font-size: xx-large;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #dac200;
+  background-image: url("ducklogo.png");
+  border: 5px #dac200;
+  background-size: 55px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-family: duckyalfa;
+  background-size: 55px;
+  font-size: x-large;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #F9A602;
+  transition: 2500ms;
+  /* get color to match background but not the same */
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #f96200;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 12px 12px;
+  /* border: 1px solid #ccc; */
+  border-top: none;
+}

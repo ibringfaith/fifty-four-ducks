@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fifty Four Ducks</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="shortcut icon" href="ducklogo.png" />
+</head>
+<body>
+	<h1>My Collection of Rubber Ducks</h1>
+  <p> Shown below is my collection of 54 rubber ducks. I collected them from swim meets, the library, Princeton, and my parents since the age of 3 to 18.</p>
+  <p>Select the tabs below to view the ducks sorted into different categories.</p>
+  <br>
+	
+	<!-- Tab links -->
+	<div class="tab">
+    <button class="tablinks" onclick="openCategory(event, 'Logo')"></button>
+    <button class="tablinks" onclick="openCategory(event, 'Logo')"></button>
+    <button class="tablinks" onclick="openCategory(event, 'Logo')"></button>
+    <button class="tablinks" onclick="openCategory(event, 'Logo')"></button>
+    <button class="tablinks" onclick="openCategory(event, 'Logo')"></button>
+    <button class="tablinks" onclick="openCategory(event, 'Top')">Top View</button>
+    <button class="tablinks" onclick="openCategory(event, 'Front')">Front View</button>
+    <button class="tablinks" onclick="openCategory(event, 'Size')">Size</button>
+    <button class="tablinks" onclick="openCategory(event, 'Beak')">Beak</button>
+    <button class="tablinks" onclick="openCategory(event, 'Clothes')">Clothes and Body Accessories</button>
+    <button class="tablinks" onclick="openCategory(event, 'Color')">Feather Color</button>
+    <button class="tablinks" onclick="openCategory(event, 'Eyes')">Eyes</button>
+    <button class="tablinks" onclick="openCategory(event, 'Hair')">Hair</button>
+  	<button class="tablinks" onclick="openCategory(event, 'Headwear')">Headwear</button>
+  	<button class="tablinks" onclick="openCategory(event, 'Occupation')">Occupation</button>
+  	<button class="tablinks" onclick="openCategory(event, 'Set')">Sets</button>
+    <button class="tablinks" onclick="openCategory(event, 'Logo')"></button>
+    <button class="tablinks" onclick="openCategory(event, 'Logo')"></button>
+    <button class="tablinks" onclick="openCategory(event, 'Logo')"></button>
+    <button class="tablinks" onclick="openCategory(event, 'Logo')"></button>
+    <button class="tablinks" onclick="openCategory(event, 'Logo')"></button>
+	</div>
+
+<!-- Tab content -->
+<div id="Top" class="tabcontent">
+  <h3>Top View</h3>
+  <p>A top view of the ducks.</p>
+  <img src = "duckfam.png" style="border: 25px solid white" width="50%">
+</div>
+
+<div id="Front" class="tabcontent">
+  <h3>Front View</h3>
+  <p>A front view of the ducks.</p>
+  <img src = "duckfam2.png" style="border: 25px solid white" width="50%">
+</div>
+
+<div id="Size" class="tabcontent">
+  <h3>Size</h3>
+  <p>All the ducks in the following tabs (except "Sets"!) are sorted by size.</p>
+  <img src = "duckhierarchy.png" style="border: 25px solid white" width="70%">
+</div>
+
+<div id="Color" class="tabcontent">
+  <h3>Feather Color</h3>
+  <p>Ducks sorted by the color of their feathers</p>
+  <img src="duckcolors.png" style="border: 25px solid white" width="95%">
+</div>
+
+<div id="Headwear" class="tabcontent">
+  <h3>Headwear</h3>
+  <p>Ducks sorted by whether or not they have headwear.</p>
+  <img src="duckheadwear1.png" style="border: 25px solid white" width="95%">
+</div>
+
+<div id="Beak" class="tabcontent">
+  <h3>Beak</h3>
+  <p>Ducks sorted by whether or not they have nostrils.</p>
+  <img src="duckbeak.png" style="border: 25px solid white" width="95%">
+</div>
+
+<div id="Eyes" class="tabcontent">
+  <h3>Eyes</h3>
+  <p>Ducks sorted by the position of their eyes.</p>
+  <img src="duckeyes.png" style="border: 25px solid white" width="95%">
+</div>
+
+<div id="Hair" class="tabcontent">
+  <h3>Hair</h3>
+  <p>Ducks sorted by whether or not they have hair.</p>
+  <img src="duckhair.png" style="border: 25px solid white" width="80%">
+</div>
+
+<div id="Clothes" class="tabcontent">
+  <h3>Clothes and Body Accessories</h3>
+  <p>Ducks sorted by whether or not they have clothes.</p>
+  <img src="duckclothes.png" style="border: 25px solid white" width="95%">
+</div>
+
+<div id="Occupation" class="tabcontent">
+  <h3>Occupation</h3>
+  <p>Ducks sorted by their occupation.</p>
+  <img src="duckoccupations.png" style="border: 25px solid white" width="80%">
+</div>
+
+<div id="Set" class="tabcontent">
+  <h3>Sets</h3>
+  <p>Ducks sorted by the set of ducks they are in.</p>
+   <img src="ducksets.png" style="border: 25px solid white" width="80%">
+</div>
+
+
+<script>
+function openCategory(evt, categoryName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(categoryName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</body>
+</html>
