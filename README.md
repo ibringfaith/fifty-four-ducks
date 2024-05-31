@@ -1,2 +1,12 @@
-# fifty-four-ducks
-my rubber duck collection
+# Fifty-Four Ducks
+
+#### These are the files I used to create my website that showcases my rubber duck collection. This was part of the final project for my drawing data course in the Fall of 2022.
+
+Thank you to everyone in my freshman seminar class for all the feedback on improving my project.
+
+The development of my concept started with the week six project focused on sensory visualization. For part of the week, I was at home so I decided to do my project on a group of objects in my house that had a variety of visual senses. I chose to visualize the sense of touch for five of my ducks. Later on, after going through project ideas for week nine, I settled on visualizing all fifty-four of my ducks since there were so many details left that I could explore. Over Thanksgiving break, I took group pictures of all my ducks to brainstorm the different categories I could depict them. I wanted to do a more expanded version of my week nine project.
+
+I ended up sorting my ducks into different categories based on their physical attributes while maintaining a hierarchy of size so the viewer could better understand the size the ducks were as they would with an in-person viewing. Using my iPhone camera and a white piece of paper, I took individual front-facing pictures of my ducks. Afterward, I took a top view of all my ducks. Then, I uploaded the images onto Adobe Photoshop and erased the backgrounds from all the pictures, creating a uniform white background. Next, I uploaded the PNGs into Adobe Illustrator where I sorted the ducks based on different categories. I used Google Sheets to help keep track of all the data. Finally, Sublime Text was used to create my website, where I displayed my project.
+
+From creating my project, I learned that specific planning is important. I needed an idea of what I wanted as my result and the required steps for my code and visualizations to reach that result. Additionally, the process taught me how to step back from my role as the creator and try to see how a viewer would see my project. As the creator, I have much information about my subject, while the viewer most likely has never seen my collection of rubber ducks before. As a result, I am responsible for making clear visualizations that can clearly and succinctly depict the sensory data to the viewer. This also makes feedback from other people important since they provide an outsider's perspective on my project. I can apply everything I have learned to future work. Clear, detailed planning, stepping back from my role, and feedback from others will help me best gear my future projects towards my audience.
+
